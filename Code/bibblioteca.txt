@@ -1,0 +1,3 @@
+dir.create("C:/Users/Thierry/Documents/R/win-library/4.5", recursive = TRUE, showWarnings = FALSE).libPaths("C:/Users/Thierry/Documents/R/win-library/4.5")
+install.packages("ggplot2")
+install.packages("dpl)

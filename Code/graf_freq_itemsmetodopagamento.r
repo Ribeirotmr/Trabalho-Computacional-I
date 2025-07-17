@@ -1,0 +1,7 @@
+source("analise.r")
+
+#==================== items x Method of Payment ====================#
+
+print(ggplot(dados_trabalho, aes(x = Method.of.Payment, y = Items)) +
+  geom_boxplot() +
+  labs(title = "Relação entre método de pagamento e número de itens"))
